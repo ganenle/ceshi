@@ -1,0 +1,177 @@
+涂鸦热水器演示
+[
+    {
+        "id": 1,
+        "code": "switch",
+        "name": "开关",
+        "mode": "rw",
+        "type": "obj",
+        "property": {
+            "type": "bool"
+        }
+    },
+    {
+        "id": 2,
+        "code": “mode”,
+        "name": “模式”,
+	"desc": “1:自动模式2: 睡眠模式3: 净化模式",
+        "mode": "rw",
+        "type": "obj",
+        "property": {
+            "type": "enum",
+            "range": [
+                “1”,
+                “2”,
+                “3”
+            ]
+        }
+    },
+    {
+        "id": 3,
+        "code": “gear”,
+        "name": “档位”,
+        "mode": "rw",
+	"desc": “1:低2: 中3: 高",
+        "type": "obj",
+        "property": {
+            "type": "enum",
+            "range": [
+                “1”,
+                “2”,
+                “3”
+            ]
+        }
+    },
+   ]
+
+涂鸦热水器演示
+[
+    {
+        "id": 1,
+        "code": "switch",
+        "name": "开关",
+        "mode": "rw",
+        "type": "obj",
+        "property": {
+            "type": "bool"
+        }
+    },
+    {
+        "id": 2,
+        "code": "temperature_c“,
+        "name": “摄氏温度",
+        "mode": "rw",
+        "type": "obj",
+        "property": {
+            "type": "value",
+            "unit": "℃",
+            "min": 30,
+            "max": 50,
+            "step": 1
+        }
+    },
+    {
+        "id": 3,
+        "code": “mode”,
+        "name": “模式”,
+	"desc": “1:ECO模式2: 速热模式3: 峰谷电模式",
+        "mode": "rw",
+        "type": "obj",
+        "property": {
+            "type": "enum",
+            "range": [
+                “1”,
+                “2”,
+                “3”
+            ]
+        }
+    },
+    {
+        "id": 4,
+        "code": “water”,
+        "name": “水量”,
+	"desc": “1:整胆2: 半胆3: 三分之一胆",
+        "mode": "rw",
+        "type": "obj",
+        "property": {
+            "type": "enum",
+            "range": [
+                “1”,
+                “2”,
+                “3”
+            ]
+        }
+    },
+   ]
+
+涂鸦空调演示
+[
+    {
+        "id": 1,
+        "code": "switch",
+        "name": "开关",
+        "mode": "rw",
+        "type": "obj",
+        "property": {
+            "type": "bool"
+        }
+    },
+    {
+        "id": 2,
+        "code": "temperature_c“,
+        "name": “摄氏温度",
+        "mode": "rw",
+        "type": "obj",
+        "property": {
+            "type": "value",
+            "unit": "℃",
+            "min": 15,
+            "max": 35,
+            "step": 1
+        }
+    },
+    {
+        "id": 3,
+        "code": “mode”,
+        "name": “模式”,
+	"desc": “1:除湿2: 通风3: 制冷4: 制热",
+        "mode": "rw",
+        "type": "obj",
+        "property": {
+            "type": "enum",
+            "range": [
+                “1”,
+                “2”,
+                “3”,
+                “4”
+            ]
+        }
+    },
+    {
+        "id": 4,
+        "code": “wind”,
+        "name": “风摆”,
+        "mode": "rw",
+        "type": "obj",
+        "property": {
+            "type": "bool"
+        }
+    },
+    {
+        "id": 5,
+        "code": “windspeed”,
+        "name": “风速”,
+	"desc": “1:小2: 中3: 大”,
+        "mode": "rw",
+        "type": "obj",
+        "property": {
+            "type": "enum",
+            "range": [
+                “1”,
+                “2”,
+                “3”
+            ]
+        }
+    },
+   ]
+
